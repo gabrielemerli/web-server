@@ -29,7 +29,7 @@ app.use(middleware.logger);
 
 //Qui invece mettiamo una ROUTE MIDDLEWARE
 app.get('/about', middleware.requireAuthentication, function(req,res) {
-	res.send('About Us');
+	res.send('About Us!');
 });
 
 //Creo una cartella chiamata public e al suo interno ci piazzo un file html chiamato index.html
