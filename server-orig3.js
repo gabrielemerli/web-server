@@ -1,9 +1,7 @@
 var express = require('express');
 var app = express();
 //Se metti il nome in maiuscolo implica che la variabile non si deve modificare (final dai)
-//var PORT = 3000;
-//Per heroku uso e se non c'è quella variabile allora uso la 3000
-var PORT = process.env.PORT || 3000;
+var PORT = 3000;
 
 var middleware = require('./middleware.js');
 
